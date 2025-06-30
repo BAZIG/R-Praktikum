@@ -173,9 +173,9 @@ average_bmi <- cleaned_data %>%
 # Display the average BMI
 average_bmi
 # Task 5: Descriptive Analysis
-
+library(tidyverse)
 # (a) Use readr to read the music dataset
-music_data <- read_csv("music_data.csv") # Make sure the file is in your working directory
+music_data <- read_csv("./R-Praktikum/music_data.csv")
 
 # Display the first few rows
 head(music_data)
